@@ -1,13 +1,98 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.app{
+  padding: 5px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header{
+  text-align: center;
+  background-color: darkcyan;
+    color: antiquewhite;
+}
+
+.searchBar{
+    display: block;
+    padding: 10px 0;
+    height: 30px;
+}
+
+.search{
+  float: left;
+  font-size: 18px;
+}
+
+.search label{
+  padding-right: 5px;
+}
+
+.search input{
+    padding: 5px;
+}
+
+.editBtnBox{
+    float: right;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.tableContainer{
+    border-top: 2px dotted gray;
+    padding-top: 5px;
+    height: 50px;
+}
+
+.editFormBox{
+    margin: 5px 0;
+    padding: 15px 0;
+    display: block;
+    width: 80%;
+}
+
+.editForm{
+    margin: 15px 0px;
+}
+
+.editForm label{
+    float: left;
+}
+
+.editInput{
+    margin: 5px 0 0;
+    padding: 3px;
+}
+
+.searchBarLg {
+    height: 90px;
+}
+
+.add{
+    float: right;
+}
+
+.addForm{
+    padding: 10px 0 20px 0;
+    width: 80%;
+}
+
+.addForm label{
+    font-size: 16px;
+}
+
+.addInput{
+    margin-left: 5px;
+}
+
+.submit, .editFormBtn {
+    margin: 5px;
+    float: right;
+    background: darkcyan;
+    color: aliceblue;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.addBtn, .editBtn{
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 12px;
+    background-color: steelblue;
+    color: wheat;
 }
